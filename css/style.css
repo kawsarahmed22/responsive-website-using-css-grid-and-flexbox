@@ -41,8 +41,15 @@ a {
   font-size: 18px;
   text-transform: uppercase;
   cursor: pointer;
+  box-shadow: 0 7px 0 #c502b5 ;
+  position: relative;
+  top: 0;
 }
 
+.primary-button:active{
+    top: 5px;
+    box-shadow: 0 2px 0 #c502b5;
+}
 nav {
     display: flex;
     justify-content: space-between;
