@@ -18,6 +18,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*===== Common css =====*/
+
 a {
     text-decoration: none;
 }
@@ -50,6 +52,20 @@ a {
     top: 5px;
     box-shadow: 0 2px 0 #c502b5;
 }
+
+.section-title {
+    text-align: center
+}
+
+.section-title h2 {
+    font-size: 40px;
+    border-bottom: 2px solid #ff008e;
+    margin: 50px 0;
+    display: inline-block;
+}
+
+/* Header Part css */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -100,4 +116,44 @@ nav {
 
 .banner-right img {
     width: 100%;
+}
+
+/* Feature Part css */
+
+.feature {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, .2);
+}
+
+.card .card-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff00e8;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.card h3 {
+    color: #ff00e8;
+    font-size: 25px;
+}
+
+.card p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.card a {
+    color: #ff00e8;
 }
