@@ -125,7 +125,7 @@ nav {
     gap: 30px;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    margin-bottom: 30px;
+  
 }
 
 .card {
@@ -156,4 +156,54 @@ nav {
 
 .card a {
     color: #ff00e8;
+}
+
+
+/* Gallery Part css */
+
+.gallery {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Contact Part css */
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-left img {
+    width: 100%;
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Footer Part css */
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
