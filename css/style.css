@@ -65,12 +65,22 @@ a {
 }
 
 /* Header Part css */
-
+#nav-toggler,
+.nav-toggler-icon {
+    display: none;
+}
+.nav-area {
+    background-color: #5D6063;
+    position: fixed;
+    width: 100%;
+}
 nav {
     display: flex;
     justify-content: space-between;
     height: 80px;
     align-items: center;
+
+
 }
 .navigation{
     display: flex;
@@ -129,7 +139,7 @@ nav {
 }
 
 .card {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
     padding: 30px;
     box-shadow: 0 20px 35px rgba(0, 0, 0, .2);
